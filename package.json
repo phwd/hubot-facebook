@@ -1,0 +1,28 @@
+{
+  "name": "hubot-facebook",
+  "version": "0.0.1",
+  "author": "Philippe Harewood <philippeharewood@gmail.com>",
+  "keywords": [
+    "github hubot facebook adapter"
+  ],
+  "description": "A Facebook adapter for hubot",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/phwd/hubot-facebook/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot/hubot-facebook.git"
+  },
+  "dependencies": {
+    "fb": "0.4.1"
+  },
+  "devDependencies": {},
+  "main": "./src/facebook.coffee",
+  "engine": "node > 0.6.0",
+  "engines": {
+    "node": "*"
+  }
+}
